@@ -95,9 +95,43 @@ class Task{
 
     void addDaysRecruit(){
         if (general.getInfoConfig("seasonClose").equals("false")) {
-//            System.out.println("false");
+
+//            Todo:Блять. Надо решить проблему тут
+//            try {
+//                File inputFile = new File(fileRecruit);
+//                File outputFile = new File("lance-lol.txt");
+//
+//                BufferedReader bufferedReader = new BufferedReader(new FileReader(inputFile));
+//                BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(outputFile));
+//
+//                File inputFile2 = new File(fileRecruit);
+//                File outputFile2 = new File("lance-lol.txt");
+//
+//                BufferedReader bufferedReader2 = new BufferedReader(new FileReader(inputFile2));
+//                BufferedWriter bufferedWriter2 = new BufferedWriter(new FileWriter(outputFile2));
+//
+//                String currentLine;
+//                String currentLine2;
+//
+//                while ((currentLine = bufferedReader.readLine()) != null) {
+//                    String[] lineArray = currentLine.split("\\|");
+//                    DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd-MM-yy");
+//                    LocalDate increased = LocalDate.parse(lineArray[1], formatter).plusDays(1L);
+//                    lineArray[1] = increased.format(formatter);
+//                    bufferedWriter.write(lineArray[0] + "|" + lineArray[1] + System.getProperty("line.separator"));
+//                }
+//                bufferedReader.close();
+//                bufferedWriter.close();
+//                boolean successful = outputFile.renameTo(inputFile);
+//
+//            } catch (Exception e){
+//                System.out.println("Произошла ошибка в addDaysRecruit-методе");
+//                e.printStackTrace();
+//                general.addErrorToAudit("addDaysRecruit", e);
+//            }
             return;
         }
+
         try {
             File inputFile = new File(fileRecruit);
             File outputFile = new File("lance.txt");

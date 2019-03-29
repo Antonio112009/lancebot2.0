@@ -4,7 +4,7 @@
 ![Maven version](https://img.shields.io/badge/maven%20version-3.6.0-red.svg)
 ![Kotlin version](https://img.shields.io/badge/kotlin%20version-1.3.21-red.svg)
 
-###Description
+### Description
 This bot is designed to simplify administration work on a server. There are various commands which are often used by all server administrators.
 Bot runs on a server since October 2018. Since then it had several minor issues that were handled by Antonio112009 in a short time period.
 According to admins opinion, bot is saving plenty of time as one line of command replaces multiple actions that admins had to do before bot was implemented on a server.  
